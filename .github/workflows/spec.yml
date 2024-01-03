@@ -1,9 +1,4 @@
-on:
-  push:
-    paths:
-    - "humphrey-json/**"
-    - "humphrey-json-derive/**"
-    - ".github/workflows/spec.yml"
+on: [push, pull_request]
 
 name: JSON Specification Compliance
 

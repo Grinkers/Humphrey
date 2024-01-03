@@ -1,8 +1,4 @@
-on:
-  push:
-    paths:
-    - "plugins/**"
-    - ".github/**"
+on: [push, pull_request]
 
 name: Plugins
 

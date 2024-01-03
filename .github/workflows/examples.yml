@@ -1,14 +1,4 @@
-on:
-  push:
-    paths:
-    - "humphrey/**"
-    - "humphrey-auth/**"
-    - "humphrey-json/**"
-    - "humphrey-json-derive/**"
-    - "humphrey-server/**"
-    - "humphrey-ws/**"
-    - "examples/**"
-    - ".github/**"
+on: [push, pull_request]
 
 name: Examples
 
