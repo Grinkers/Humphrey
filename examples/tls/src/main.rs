@@ -7,7 +7,9 @@ use std::error::Error;
 
 fn main() -> Result<(), Box<dyn Error>> {
     // a comment to test CI
+    // much
     // wow
+
     let app: App<()> = App::new()
         .with_stateless_route("/", home)
         .with_cert("keys/localhost.pem", "keys/localhost-key.pem")
